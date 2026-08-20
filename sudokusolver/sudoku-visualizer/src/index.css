@@ -1,0 +1,17 @@
+.Board{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cell{
+  border: solid 1px black;
+  height: 5vh;
+}
+
+.box-bottom{
+  border-bottom: solid 3px Black;
+}
+
+.box-right{
+  border-right: solid 3px blue;
+}
